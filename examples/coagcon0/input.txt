@@ -1,0 +1,13 @@
+NUM_BINS = 20
+POLY_ORDER = 0
+MAX_TIME = 3e4
+X_MIN = 1e-3
+X_MAX = 1e6
+CFL = 1
+COAGULATION_KERNEL = constant
+FRAGMENTATION_KERNEL = probabilistic
+VELO_F = 1
+VELO_B = 0.1
+ALPHA = -1.83
+QUAD = 1 
+flux_mode = pure_coag

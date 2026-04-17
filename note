@@ -1,0 +1,4 @@
+g++-15 -O3 -Ofast main.cpp -o solver 
+cd ./examples/coagcon0
+cp ../../solver ./
+./solver

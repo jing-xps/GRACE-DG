@@ -1,0 +1,12 @@
+NUM_BINS = 20
+POLY_ORDER = 0
+MAX_TIME = 1
+X_MIN = 1e-6
+X_MAX = 1e3
+CFL = 0.9
+COAGULATION_KERNEL = probabilistic
+FRAGMENTATION_KERNEL = probabilistic
+VELO_F = 1
+VELO_B = 0.1
+ALPHA = -1.83
+QUAD = 1
