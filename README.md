@@ -19,7 +19,7 @@ cd build
 cmake ..
 make
 
-cd ../examples/coag0
+cd ../examples/coagcon0
 cp ../../build/GRACE_DG .
 ./GRACE_DG
 ```
