@@ -1,4 +1,4 @@
-# GRACE-DG (GRAin collisional Evolution - Discontinuous Galerkin)
+# GRACE-DG (GRAin Collisional Evolution - Discontinuous Galerkin)
 
 GRACE-DG is a high-order numerical solver for the Smoluchowski coagulation-fragmentation equation. Utilizing the Discontinuous Galerkin (DG) method, it is designed for accurate and efficient modeling of dust grain collisional evolution, making it highly applicable to environments such as protoplanetary disks.
 
