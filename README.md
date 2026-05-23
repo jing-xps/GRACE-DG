@@ -11,15 +11,11 @@ GRACE-DG is a high-order numerical solver for the Smoluchowski coagulation-fragm
 
 ## Build Instructions
 
-This project uses CMake. To build the solver, run the following commands in the project root directory:
+This project uses a standard `Makefile` for compilation. Ensure you have a C++17 compatible compiler (such as `g++` or `clang++`) installed. To build the solver, simply run the following command in the project root directory:
 
 ```bash
-mkdir build
-cd build
-cmake ..
 make
-
-cd ../examples/coagcon0
-cp ../../build/GRACE_DG .
+cd ./examples/coagcon0
+cp ../../GRACE-DG .
 ./GRACE_DG
 ```
